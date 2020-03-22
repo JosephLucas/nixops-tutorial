@@ -54,7 +54,7 @@ Deploy the instance
 nixops deploy -d <deployment-name>
 ```
 
-## Split the deployment declaration into a _physical_ and a _logical_ part
+## Explicit the _physical_ and _logical_ parts of deployment declaration
 
 For convenience `./deployment.nix` can be split into `./deployment-physical.nix` and `./deployment-logical.nix`.
 
